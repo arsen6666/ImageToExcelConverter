@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  excel-converter-web:
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "5555:5555"
+
+
